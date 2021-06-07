@@ -1,0 +1,169 @@
+.bonis {
+    color:rgb(158, 29, 175)
+
+}
+.mouse:hover {
+
+color :rgb(230, 14, 14)
+
+}
+
+
+ /* el hover hace que hasta que toque la letra se pondra el efecto o el cambio */
+.p-clase__h1:hover { 
+    
+    color: rgb(29, 141, 175);
+    background-color: salmon;
+    width: 50%;    /* esto hace que la caja que lo contiene este por la mitad */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.p-clase_h2 {
+     padding: 20px; /* hace que la caja se expanda horizontal y verticalmente */
+display: inline;
+    color: rgb(19, 211, 185);
+    background-color: rgb(161, 16, 149);
+    width: 50%;    /* esto hace que la caja que lo contiene este por la mitad */
+    font-family: 'Montserrat', sans-serif; /* fuente traida de google fonts */
+    line-height:2; /*tracking de letras en forma horizontal*/
+
+}
+
+.p-clase__h3 {
+    display: inline; 
+padding: 40;
+
+  background-color: cornflowerblue;
+    /* esta funcion hace que los h1 o p2 o cualquier caja que normalmente ocupa todo el ancho se comporte
+    como un bloque chiquito como los black, los formularios etc , la desventaja que al no ser bloque no saldra 
+    afectado los atributos weight, height etc sobre las cajas */
+}
+
+
+
+.saludo__frase {
+
+display: inline-block;
+
+padding: 30px 140px;
+
+background-color: cyan;
+
+}
+
+
+.saludo {
+background-color:rgb(3, 57, 119); /*toda la parte del articulo */
+
+
+     
+}
+
+
+.saludo__frase2 {
+    /* text-align: center; para centrar en el medio el texto */
+    display: inline-block;
+    
+    padding: 10px 30px ;
+    
+    background-color: cyan;
+    margin: 20px; /*separacion entre bloques */
+    border-radius: 150px; /*bordes circular */
+    font-family: Montserrat;
+    border: 5px solid rgb(228, 228, 253);
+    box-sizing: border-box;  /*para poner contornos*/
+    box-shadow: 10px 10px  30px  #000;   /*para dale sobra a la caja */ /* 10 px es el eje y despues eje x y el que dice 30 es- 
+     el desenfoque */
+     text-shadow: 2px 2px 4px rgb(226, 250, 10); /*para texto */
+    
+
+}
+    
+.saludo__frase3{
+
+display: inline-block;
+background-color: brown;
+text-align: center;
+width: 50px;
+margin: 10px;
+outline:  1px solid rgb(255, 255, 255); /* es como el border pero este es linea por fuera caja es mejor que border */
+
+
+}
+
+.saludo__frase4{
+
+    background-color: brown;
+    text-align: center;
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    outline:  1px solid rgb(255, 255, 255); /* es como el border pero este es linea por fuera caja es mejor que border */
+    
+    
+    }
+
+
+    
+.saludo__frase5{
+    display: inline-block;
+    background-color: rgb(241, 15, 155);
+    
+    
+    
+    outline:  1px solid rgb(255, 255, 255); /* es como el border pero este es linea por fuera caja es mejor que border */
+    position: relative;
+    z-index: 10; /*este propiedad avienta la caja adelante es requerido tener el position relative*/
+    
+
+
+    /* como consejo: Z-index debes aumentarle de 10 en 10 por que si quieres agregar un elemento arriba de un elemento
+    tendria que modificar todos los index de cada elemento */
+    }
+
+
+
+    
+.saludo__frase6{
+    display: inline-block; /*un inline que tiene ventajas de bloque */
+
+
+    background-color: rgb(42, 85, 165);
+    
+    
+    outline:  1px solid rgb(255, 255, 255); /* es como el border pero este es linea por fuera caja es mejor que border */
+    position: relative;
+    right: 20px; /*es la parte derecha pero lo avienta al izquierda */
+    top: 10px; /*es la parte de arriba pero lo avienta hacia abajo */  /* si quieres hacerlo al reves debes agregar -10px */
+    
+    }
+
+
+.p-clase__h4 {
+display: inline-block;
+
+
+}
+
+
+
+.form-class {
+     
+    /* este valor se asiganara ahora para que 1 em valga 1px*/
+    font-size: 1px;       
+    
+       
+    }
+    
+
+
+
+                .form-class__text {
+                    font-size:  20em;
+
+                color:rgba(42, 0, 230, 0.966)
+
+                }
